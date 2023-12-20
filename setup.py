@@ -85,6 +85,7 @@ setup(
         "util.security",
         "util.metrics",
         "util.migrate",
+        "util.secscan",
         "image",
         "image.docker",
         "image.oci",
