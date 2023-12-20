@@ -65,7 +65,7 @@ if os.path.isfile(requirementPath):
 
 setup(
     name="quay",
-    version="3.7",
+    version="3.10",
     description="Quay Modules",
     author="Quay Team",
     author_email="",
@@ -84,6 +84,7 @@ setup(
         "util",
         "util.security",
         "util.metrics",
+        "util.migrate",
         "image",
         "image.docker",
         "image.oci",
